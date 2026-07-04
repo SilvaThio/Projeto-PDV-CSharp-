@@ -38,4 +38,4 @@ Antes de iniciar, você precisará ter instalado em sua máquina:
 
 1. **Clonar o repositório:**
    ```bash
-   git clone [[https://github.com/SilvaThio/Projeto-de-PDV-em-C-.git]](https://github.com/SilvaThio/Projeto-de-PDV-em-C-/tree/main)
+   git clone [[https://github.com/SilvaThio/Projeto-PDV-CSharp-.git]](https://github.com/SilvaThio/Projeto-PDV-CSharp-)
