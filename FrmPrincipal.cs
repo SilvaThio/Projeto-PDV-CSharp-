@@ -26,5 +26,10 @@ namespace PDV
         {
 
         }
+
+        private void bttBuscarPrincipal_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

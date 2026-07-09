@@ -39,6 +39,7 @@
             this.imgPrincipal03 = new System.Windows.Forms.PictureBox();
             this.imgPrincipal04 = new System.Windows.Forms.PictureBox();
             this.bttBuscarPrincipal = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.MenuPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgPrincipal01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPrincipal02)).BeginInit();
@@ -131,12 +132,23 @@
             // bttBuscarPrincipal
             // 
             this.bttBuscarPrincipal.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttBuscarPrincipal.Location = new System.Drawing.Point(292, 328);
+            this.bttBuscarPrincipal.Location = new System.Drawing.Point(85, 231);
             this.bttBuscarPrincipal.Name = "bttBuscarPrincipal";
-            this.bttBuscarPrincipal.Size = new System.Drawing.Size(148, 69);
+            this.bttBuscarPrincipal.Size = new System.Drawing.Size(125, 45);
             this.bttBuscarPrincipal.TabIndex = 5;
             this.bttBuscarPrincipal.Text = "Buscar";
             this.bttBuscarPrincipal.UseVisualStyleBackColor = true;
+            this.bttBuscarPrincipal.Click += new System.EventHandler(this.bttBuscarPrincipal_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(216, 231);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(125, 45);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Salvar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // frmPrincipal
             // 
@@ -144,6 +156,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bttBuscarPrincipal);
             this.Controls.Add(this.imgPrincipal04);
             this.Controls.Add(this.imgPrincipal03);
@@ -177,6 +190,7 @@
         private System.Windows.Forms.PictureBox imgPrincipal03;
         private System.Windows.Forms.PictureBox imgPrincipal04;
         private System.Windows.Forms.Button bttBuscarPrincipal;
+        private System.Windows.Forms.Button button1;
     }
 }
 
