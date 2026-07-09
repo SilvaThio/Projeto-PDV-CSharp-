@@ -38,6 +38,7 @@
             this.imgPrincipal02 = new System.Windows.Forms.PictureBox();
             this.imgPrincipal03 = new System.Windows.Forms.PictureBox();
             this.imgPrincipal04 = new System.Windows.Forms.PictureBox();
+            this.bttBuscarPrincipal = new System.Windows.Forms.Button();
             this.MenuPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgPrincipal01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgPrincipal02)).BeginInit();
@@ -93,7 +94,7 @@
             // 
             // imgPrincipal01
             // 
-            this.imgPrincipal01.Location = new System.Drawing.Point(49, 57);
+            this.imgPrincipal01.Location = new System.Drawing.Point(85, 87);
             this.imgPrincipal01.Name = "imgPrincipal01";
             this.imgPrincipal01.Size = new System.Drawing.Size(237, 128);
             this.imgPrincipal01.TabIndex = 1;
@@ -101,11 +102,12 @@
             // 
             // imgPrincipal02
             // 
-            this.imgPrincipal02.Location = new System.Drawing.Point(439, 57);
+            this.imgPrincipal02.Location = new System.Drawing.Point(375, 57);
             this.imgPrincipal02.Name = "imgPrincipal02";
             this.imgPrincipal02.Size = new System.Drawing.Size(237, 128);
             this.imgPrincipal02.TabIndex = 2;
             this.imgPrincipal02.TabStop = false;
+            this.imgPrincipal02.Click += new System.EventHandler(this.imgPrincipal02_Click);
             // 
             // imgPrincipal03
             // 
@@ -119,12 +121,22 @@
             // 
             this.imgPrincipal04.Image = global::PDV.Properties.Resources.Captura_de_tela_2026_06_09_225030;
             this.imgPrincipal04.InitialImage = global::PDV.Properties.Resources.Captura_de_tela_2026_06_09_225030;
-            this.imgPrincipal04.Location = new System.Drawing.Point(398, 217);
+            this.imgPrincipal04.Location = new System.Drawing.Point(459, 203);
             this.imgPrincipal04.Name = "imgPrincipal04";
             this.imgPrincipal04.Size = new System.Drawing.Size(301, 207);
             this.imgPrincipal04.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.imgPrincipal04.TabIndex = 4;
             this.imgPrincipal04.TabStop = false;
+            // 
+            // bttBuscarPrincipal
+            // 
+            this.bttBuscarPrincipal.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttBuscarPrincipal.Location = new System.Drawing.Point(292, 328);
+            this.bttBuscarPrincipal.Name = "bttBuscarPrincipal";
+            this.bttBuscarPrincipal.Size = new System.Drawing.Size(148, 69);
+            this.bttBuscarPrincipal.TabIndex = 5;
+            this.bttBuscarPrincipal.Text = "Buscar";
+            this.bttBuscarPrincipal.UseVisualStyleBackColor = true;
             // 
             // frmPrincipal
             // 
@@ -132,6 +144,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bttBuscarPrincipal);
             this.Controls.Add(this.imgPrincipal04);
             this.Controls.Add(this.imgPrincipal03);
             this.Controls.Add(this.imgPrincipal02);
@@ -140,7 +153,6 @@
             this.MainMenuStrip = this.MenuPrincipal;
             this.Name = "frmPrincipal";
             this.Text = "Principal";
-            this.Load += new System.EventHandler(this.frmPrincipal_Load_1);
             this.MenuPrincipal.ResumeLayout(false);
             this.MenuPrincipal.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgPrincipal01)).EndInit();
@@ -164,6 +176,7 @@
         private System.Windows.Forms.PictureBox imgPrincipal02;
         private System.Windows.Forms.PictureBox imgPrincipal03;
         private System.Windows.Forms.PictureBox imgPrincipal04;
+        private System.Windows.Forms.Button bttBuscarPrincipal;
     }
 }
 
